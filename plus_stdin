@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+# SPDX-FileCopyrightText: 2024 Ryusei Fujimura 
+# mailaddress: s23c1125ja@s.chibakoudai.jp
 import sys
 
 

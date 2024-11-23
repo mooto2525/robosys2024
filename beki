@@ -15,6 +15,8 @@ def tonum(s):
 ans = 2
 for line in sys.stdin:
     line = line.rstrip()
+    print(line)
+    print(line.isdecimal())
     ans = ans ** tonum(line)
 
 print(ans)

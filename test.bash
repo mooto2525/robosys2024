@@ -1,4 +1,4 @@
-#!/bin/bash -xv
+#!/bin/bash
 
 ng () {
 	echo ${1}行目が違うよ
@@ -7,7 +7,7 @@ ng () {
 
 res=0
 
-out=$(seq 3 | ./keki)
+out=$(seq 3 | ./beki)
 [ "${out}" = 64 ] || ng "$LINENO"
 
 [ "$res" = 0 ] && echo OK

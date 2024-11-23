@@ -10,6 +10,6 @@
 
 
 ## テスト環境
-- Ubuntu 24.04 LTS
+- Ubuntu 20.04 LTS
 
 ©　2024 Ryusei Fujimura

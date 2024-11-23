@@ -1,7 +1,7 @@
 # robosys2024
 ロボットシステム学授業用
-# plusコマンド
-![test](http://github.com/mooto2525/robosys2024/actions/workflows/test.yml/badge.svg)
+# bekiコマンド
+[![test](https://github.com/mooto2525/robosys2024/actions/workflows/test.yml/badge.svg)](https://github.com/mooto2525/robosys2024/actions/workflows/test.yml)
 
 
 ## 必要なソフトウェア

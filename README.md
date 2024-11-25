@@ -10,6 +10,6 @@
 
 
 ## テスト環境
-- Ubuntu 20.04 LTS
+- Ubuntu 20.04.6 LTS
 
 ©　2024 Ryusei Fujimura

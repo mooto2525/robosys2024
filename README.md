@@ -34,7 +34,8 @@ git clone https://github.com/mooto2525/robosys2024.git
 cd robosys2024  
   
 ## 実行方法の例
-``` seq 5(例) | ./beki ```  
+``` seq 5 | ./beki ```  
   
-## サンプル
+## サンプル  
+``` print("Hello") ```
 

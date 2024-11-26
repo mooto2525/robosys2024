@@ -35,7 +35,3 @@ cd robosys2024
   
 ## 実行方法の例
 ``` seq 5 | ./beki ```  
-  
-## サンプル  
-``` print("Hello") ```
-

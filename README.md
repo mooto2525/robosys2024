@@ -20,9 +20,6 @@
 
 - Ubuntu 20.04.6 LTS
 
-©　2024 Ryusei Fujimura
-
-
 ## インストール方法(for Linux)
 Gitをインストール(Gitをインストールしていない方のみ)  
 sudo apt-get install git  
@@ -35,3 +32,6 @@ cd robosys2024
   
 ## 実行方法の例
 ``` seq 5 | ./beki ```  
+
+- このソフトウェアパッケージは、３条項BSDライセンスの下、再頒布及び使用が許可されます
+- ©　2024 Ryusei Fujimura

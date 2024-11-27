@@ -18,7 +18,7 @@ for line in sys.stdin:
     if line.isdecimal() == True:
         ans = ans ** tonum(line)
     else:
-        print("数字以外を感知しました")
+        print("整数以外を感知しました")
         sys.exit()
 
 print(ans)

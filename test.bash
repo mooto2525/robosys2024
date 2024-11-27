@@ -10,5 +10,11 @@ res=0
 out=$(seq 3 | ./beki)
 [ "${out}" = 64 ] || ng "$LINENO"
 
+out=$(echo あ | ./beki)
+[ "${out}" = 整数を入力してください ] || ng "$LINENO"
+
+out=$(echo "" | ./beki)
+[ "${out}" = 整数を入力してください ] || ng "$LINENO"
+
 [ "$res" = 0 ] && echo OK
 exit "$res"

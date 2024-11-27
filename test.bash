@@ -16,5 +16,14 @@ out=$(echo あ | ./beki)
 out=$(echo "" | ./beki)
 [ "${out}" = 整数を入力してください ] || ng "$LINENO"
 
+out=$(echo A | ./beki)
+[ "${out}" = 整数を入力してください ] || ng "$LINENO"
+
+out=$(echo a | ./beki)
+[ "${out}" = 整数を入力してください ] || ng "$LINENO"
+
+out=$(echo 0 | ./beki)
+[ "${out}" = 1 ] || ng "$LINENO"
+
 [ "$res" = 0 ] && echo OK
 exit "$res"

@@ -1,6 +1,5 @@
 #!/usr/bin/python3
-# SPDX-FileCopyrightText: 2024 Ryusei Fujimura
-# mailaddress: s23c1125ja@s.chibakoudai.jp　　　　　
+# SPDX-FileCopyrightText: 2024 Ryusei Fujimura　　　　　
 # SPDX-License-Identifier: BSD-3-Clause
 import sys
  
@@ -18,7 +17,7 @@ for line in sys.stdin:
     if line.isdecimal() == True:
         ans = ans ** tonum(line)
     else:
-        print("整数以外を感知しました")
+        print("整数を入力してください")
         sys.exit()
 
 print(ans)

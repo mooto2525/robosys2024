@@ -64,7 +64,8 @@ for line in sys.stdin:
         print("整数を入力してください")
         sys.exit()
 
-print(ans)```
+print(ans)
+```
 
   
 - このソフトウェアパッケージは、３条項BSDライセンスの下、再頒布及び使用が許可されます

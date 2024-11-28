@@ -8,7 +8,7 @@ def tonum(s):
     try:
         return int(s)
     except:
-        return float(0)
+        return float(s)
 
 
 ans = 2

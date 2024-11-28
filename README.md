@@ -18,7 +18,7 @@
 
 ## テスト環境
 
-- Ubuntu 24.04.6 LTS
+- Ubuntu 22.04.6 LTS
 
 ## 使用方法(for Linux)
 Gitをインストール(Gitをインストールしていない方のみ)  

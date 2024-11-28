@@ -9,8 +9,7 @@
 - 整数以外を入力した場合は結果は出力せず、エラーを通知します
 - **最初は２のべき乗からスタートし、次の行ではひとつ前の行の計算結果のべき乗を計算します**  
 ```
-seq 3 | ./beki  
-  
+seq 3 | ./beki    
 64
 ```
 
@@ -35,9 +34,10 @@ Gitをインストール(Gitをインストールしていない方のみ)
 ```cd robosys2024```  
   
 移動できたか確認
-```ls```
-  
-```LICENSE  README.md  beki  test  test.bash  test.yml```
+```
+ls
+LICENSE  README.md  beki  test  test.bash  test.yml
+```
 と表示されればok
 
   

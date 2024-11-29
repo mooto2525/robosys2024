@@ -37,8 +37,8 @@ Gitをインストール(Gitをインストールしていない方のみ)
   
 移動できたか確認
 ```ls```  
-
-```LICENSE  README.md  beki  test  test.bash  test.yml```
+  
+```LICENSE  README.md  beki  test  test.bash  test.yml```  
 と表示されればok  
 
 ここでbekiを実行

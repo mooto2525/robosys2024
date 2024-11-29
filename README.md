@@ -23,7 +23,7 @@ seq 3 | ./beki
 
 ## テスト環境
 
-- Ubuntu 22.04
+- Ubuntu 22.04.5 LTS
 
 ## 使用方法(for Linux)
 Gitをインストール(Gitをインストールしていない方のみ)  

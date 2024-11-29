@@ -24,9 +24,8 @@ Gitをインストール(Gitをインストールしていない方のみ)
 ディレクトリに移動  
 ```cd robosys2024```  
   
-移動できたか確認
+移動できたか確認  
 ```ls```  
-  
 ```LICENSE  README.md  beki  test  test.bash  test.yml```  
 と表示されればok  
   

@@ -12,19 +12,19 @@ out=$(seq 3 | ./beki)
 
 out=$(echo あ | ./beki)
 [ "$?" = 0 ] || ng "$LINENO"
-[ "${out}" = 整数を入力してください ] || ng "$LINENO"
+[ "${out}" = 自然数を入力してください ] || ng "$LINENO"
 
 out=$(echo "" | ./beki)
 [ "$?" = 0 ] || ng "$LINENO"
-[ "${out}" = 整数を入力してください ] || ng "$LINENO"
+[ "${out}" = 自然数を入力してください ] || ng "$LINENO"
 
 out=$(echo A | ./beki)
 [ "$?" = 0 ] || ng "$LINENO"
-[ "${out}" = 整数を入力してください ] || ng "$LINENO"
+[ "${out}" = 自然数を入力してください ] || ng "$LINENO"
 
 out=$(echo a | ./beki)
 [ "$?" = 0 ] || ng "$LINENO"
-[ "${out}" = 整数を入力してください ] || ng "$LINENO"
+[ "${out}" = 自然数を入力してください ] || ng "$LINENO"
 
 out=$(echo 0 | ./beki)
 [ "$?" = 0 ] || ng "$LINENO"

@@ -10,8 +10,7 @@
 - **最初は２のべき乗からスタートし、次の行ではひとつ前の行の計算結果のべき乗を計算します**  
 ```
 #実行例
-seq 3 | ./beki  
-
+$ seq 3 | ./beki  
 64
 ```
 
@@ -30,22 +29,25 @@ Gitをインストール(Gitをインストールしていない方のみ)
 ```sudo apt-get install git```  
   
 リポジトリをクローン  
-```git clone https://github.com/mooto2525/robosys2024.git```  
+```$ git clone https://github.com/mooto2525/robosys2024.git```  
   
 ディレクトリに移動  
-```cd robosys2024```  
+```$ cd robosys2024```  
   
 移動できたか確認
 ```
-ls  
+$ ls  
 
 LICENSE  README.md  beki  test  test.bash  test.yml
 ```
-と表示されればok
+と表示されればok  
+
+ここでbekiを実行
 
   
 ### 実行方法の例
-``` seq 5 | ./beki ```  
+```$ seq 5 | ./beki ```
+```64```  
 
   
 ## サンプルコード

@@ -17,7 +17,7 @@ for line in sys.stdin:
     if line.isdecimal() == True:
         ans = ans ** tonum(line)
     else:
-        print("整数を入力してください")
+        print("自然数を入力してください")
         sys.exit()
 
 print(ans)

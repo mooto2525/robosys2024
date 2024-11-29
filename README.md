@@ -8,11 +8,10 @@
 - seqコマンドやechoコマンドなどで並べた数字を行ごとに読み込みべき乗の計算をすることができます
 - 整数以外を入力した場合は結果は出力せず、エラーを通知します
 - **最初は２のべき乗からスタートし、次の行ではひとつ前の行の計算結果のべき乗を計算します**  
-```
-#実行例
-$ seq 3 | ./beki  
-64
-```
+- 実行例
+```seq 3 | ./beki```  
+```64```
+
 
 ## 必要なソフトウェア
 
@@ -29,17 +28,15 @@ Gitをインストール(Gitをインストールしていない方のみ)
 ```sudo apt-get install git```  
   
 リポジトリをクローン  
-```$ git clone https://github.com/mooto2525/robosys2024.git```  
+```git clone https://github.com/mooto2525/robosys2024.git```  
   
 ディレクトリに移動  
-```$ cd robosys2024```  
+```cd robosys2024```  
   
 移動できたか確認
-```
-$ ls  
+```ls```  
 
-LICENSE  README.md  beki  test  test.bash  test.yml
-```
+```LICENSE  README.md  beki  test  test.bash  test.yml```
 と表示されればok  
 
 ここでbekiを実行

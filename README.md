@@ -39,34 +39,7 @@ Gitをインストール(Gitをインストールしていない方のみ)
 ```$ seq 3 | ./beki```  
 ```64```  
 
-  
-## サンプルコード
-```#!/usr/bin/python3
-# SPDX-FileCopyrightText: 2024 Ryusei Fujimura　　　　　
-# SPDX-License-Identifier: BSD-3-Clause
-import sys
-
-
-def tonum(s):
-    try:
-        return int(s)
-    except:
-        return float(0)
-
-
-ans = 2
-for line in sys.stdin:
-    line = line.rstrip()
-    if line.isdecimal() == True:
-        ans = ans ** tonum(line)
-    else:
-        print("整数を入力してください")
-        sys.exit()
-
-print(ans)
-```
-
-  
+    
 ## ライセンス
   
 - このソフトウェアパッケージは、３条項BSDライセンスの下、再頒布及び使用が許可されます

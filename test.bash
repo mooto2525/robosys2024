@@ -13,24 +13,28 @@ out=$(seq 3 | ./beki)
 [ "${out}" = 64 ] || ng "$LINENO"
 
 out=$(echo あ | ./beki)
-[ "$?" = 0 ] || ng "$LINENO"
-[ "${out}" = 自然数を入力してください ] || ng "$LINENO"
+[ "$?" = 1 ] || ng "$LINENO"
+[ "${out}" = "" ] || ng "$LINENO"
 
 out=$(echo "" | ./beki)
-[ "$?" = 0 ] || ng "$LINENO"
-[ "${out}" = 自然数を入力してください ] || ng "$LINENO"
+[ "$?" = 1 ] || ng "$LINENO"
+[ "${out}" = "" ] || ng "$LINENO"
 
 out=$(echo A | ./beki)
-[ "$?" = 0 ] || ng "$LINENO"
-[ "${out}" = 自然数を入力してください ] || ng "$LINENO"
+[ "$?" = 1 ] || ng "$LINENO"
+[ "${out}" = "" ] || ng "$LINENO"
 
 out=$(echo a | ./beki)
-[ "$?" = 0 ] || ng "$LINENO"
-[ "${out}" = 自然数を入力してください ] || ng "$LINENO"
+[ "$?" = 1 ] || ng "$LINENO"
+[ "${out}" = "" ] || ng "$LINENO"
 
 out=$(echo 0 | ./beki)
 [ "$?" = 0 ] || ng "$LINENO"
 [ "${out}" = 1 ] || ng "$LINENO"
+
+out=$(echo -1 | ./beki)
+[ "$?" = 0 ] || ng "$LINENO"
+[ "${out}" = 0.5 ] || ng "$LINENO"
 
 [ "$res" = 0 ] && echo OK
 exit "$res"

@@ -14,10 +14,5 @@ def tonum(s):
 ans = 2
 for line in sys.stdin:
     line = line.rstrip()
-    if line.isdecimal() == True:
-        ans = ans ** tonum(line)
-    else:
-        print("自然数を入力してください")
-        sys.exit()
-
+    ans = ans ** tonum(line)
 print(ans)

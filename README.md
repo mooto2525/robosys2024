@@ -2,7 +2,7 @@
 ロボットシステム学授業用  
 [![test](https://github.com/mooto2525/robosys2024/actions/workflows/test.yml/badge.svg)](https://github.com/mooto2525/robosys2024/actions/workflows/test.yml)
   
-標準入力から行ごとに数字を読み取り、べき乗を計算して表示する。
+標準入力から行ごとに整数を読み取り、べき乗を計算して表示する。
   
 ## 必要なソフトウェア
 

@@ -47,5 +47,5 @@ Gitをインストール(Gitをインストールしていない方のみ)
   
 - このソフトウェアパッケージは、３条項BSDライセンスの下、再頒布及び使用が許可されます
 - このパッケージのコードの一部は、下記のスライド（CC-BY-SA 4.0 by Ryuichi Ueda）のものを、本人の許可を得て自身の著作としたものです。
-  - robosys2024
-- ©　2024 Ryusei Fujimura
+  - [ryuichiueda/slides_marp/robosys2024](https://github.com/ryuichiueda/slides_marp/tree/master/robosys2024)
+- © 2024 Ryusei Fujimura

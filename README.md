@@ -15,8 +15,6 @@
 - Ubuntu 22.04 LTS
   
 ## 使用準備(for Linux)  
-以下の手順で行ってください  
-
 Gitをインストール(Gitをインストールしていない方のみ)  
 ```sudo apt-get install git```  
   
